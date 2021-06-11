@@ -1,0 +1,96 @@
+﻿  Compiling CUDA source file src\DetectorKernel.cu...
+  Compiling CUDA source file src\SimulatorKernel.cu...
+  
+  C:\dev\cuGL\cuGL>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "E:\vs\VC\Tools\MSVC\14.28.29910\bin\HostX86\x64" -x cu  -I"C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.2\common\inc" -IC:\dev\cuGL\Dependency\GLFW\include -IC:\dev\cuGL\Dependency\GLEW\include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static -Xcompiler "/wd4819 " -g   -DGLEW_STATIC -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FdC:\dev\cuGL\bin\intermediate\Debug\x64\vc142.pdb /FS /Zi /RTC1 /MDd " -o C:\dev\cuGL\bin\intermediate\Debug\x64\SimulatorKernel.cu.obj "C:\dev\cuGL\cuGL\src\SimulatorKernel.cu" 
+  
+  C:\dev\cuGL\cuGL>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "E:\vs\VC\Tools\MSVC\14.28.29910\bin\HostX86\x64" -x cu  -I"C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.2\common\inc" -IC:\dev\cuGL\Dependency\GLFW\include -IC:\dev\cuGL\Dependency\GLEW\include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static -Xcompiler "/wd4819 " -g   -DGLEW_STATIC -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FdC:\dev\cuGL\bin\intermediate\Debug\x64\vc142.pdb /FS /Zi /RTC1 /MDd " -o C:\dev\cuGL\bin\intermediate\Debug\x64\DetectorKernel.cu.obj "C:\dev\cuGL\cuGL\src\DetectorKernel.cu" 
+  SimulatorKernel.cu
+  DetectorKernel.cu
+  Application.cpp
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime.h(1,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime.h(1,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime.h(1,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\dev\cuGL\cuGL\src\Application.cpp(227,25): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+C:\dev\cuGL\cuGL\src\Application.cpp(310,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  DataBlock.cpp
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime.h(1,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Detector.cpp
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime.h(1,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime.h(1,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  MyResource.cpp
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime.h(1,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime.h(1,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  IndexBuffer.cpp
+  Matrix.cpp
+  PixelBuffer.cpp
+  Renderer.cpp
+  Shader.cpp
+  Simulator.cpp
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime.h(1,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(3324,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349,1): warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Texture.cpp
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_glfw.cpp
+  imgui_impl_opengl3.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  stb_image.cpp
+  VertexArray.cpp
+C:\dev\cuGL\cuGL\src\VertexArray.cpp(25,116): warning C4312: “类型强制转换”: 从“unsigned int”转换到更大的“const void *”
+  正在生成代码...
+  正在编译...
+  VertexBuffer.cpp
+  正在生成代码...
+    正在创建库 C:\dev\cuGL\bin\Debug\x64\cuGL.lib 和对象 C:\dev\cuGL\bin\Debug\x64\cuGL.exp
+LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+glew32sd.lib(glew.obj) : warning LNK4099: 未找到 PDB“glew_static.pdb”(使用“glew32sd.lib(glew.obj)”或在“C:\dev\cuGL\bin\Debug\x64\glew_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+  cuGL.vcxproj -> C:\dev\cuGL\bin\Debug\x64\cuGL.exe
